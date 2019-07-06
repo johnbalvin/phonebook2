@@ -1,0 +1,21 @@
+.addForm{
+    display: flex;
+    justify-content: center;
+}
+.addForm input{
+    margin-left: 14px;
+    border-radius: 12px;
+    border: 10px solid #F7F7F7;
+}
+.addForm button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+td[contenteditable="true"] {
+    border: 1px solid #3F51B5;
+}

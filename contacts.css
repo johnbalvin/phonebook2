@@ -1,0 +1,26 @@
+
+#phonebookWrapper{
+    display: flex;
+    justify-content: center;
+}
+th:first-of-type .nameOrder{
+    display: flex;
+}
+#phonebook .actions{
+    display: flex;
+}
+#phonebook .actions .cancel,#phonebook .actions .save{
+    display: none;
+}
+th{
+    font-size: 1.5em;
+}
+.addres{
+    text-align: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: context-menu;
+}
